@@ -3,7 +3,7 @@
 2.特征筛选：使用 RFECV（递归特征消除与交叉验证）方法选择最优特征子集。<br>
 3.模型训练：使用 XGBoost 等模型等对选定的特征进行训练，以预测目标变量（疾病分类）。<br>
 4.模型调优：通过调优超参数，以优化模型性能。<br>
-5.PPC预测：<br>
+5.PPC预测：使用选取的模型进行疾病分类任务。<br>
 ## 环境要求：<br>
 确保已安装以下 Python 库：<br>
 `pip install pandas xgboost scikit-learn neurokit2 hrvanalysis scipy`<br>
